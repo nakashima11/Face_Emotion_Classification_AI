@@ -15,7 +15,7 @@ from utils.preprocessor import preprocess_input
 
 # parameters for loading data and images
 detection_model_path = '../trained_models/detection_models/haarcascade_frontalface_default.xml'
-emotion_model_path = '../trained_models/emotion_models/fer2013_mini_XCEPTION.hdf5'
+emotion_model_path = '../trained_models/emotion_models/fine_tuned_model.hdf5'
 gender_model_path = '../trained_models/gender_models/simple_CNN.hdf5'
 emotion_labels = get_labels('fer2013')
 gender_labels = get_labels('imdb')

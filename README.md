@@ -85,5 +85,6 @@ predicted_emotion = emotion_labels[np.argmax(prediction)]
 
 - [オリジナルモデル（GitHub）](https://github.com/oarriaga/face_classification/blob/master/trained_models/emotion_models/fer2013_mini_XCEPTION.102-0.66.hdf5)
 - [FER2013データセット（Kaggle）](https://www.kaggle.com/datasets/msambare/fer2013)
-- [画像例](https://github.com/user-attachments/assets/4a52bdd1-ffbe-4ad5-bb41-7fb1f4b1195f)
-- [表情認識の実装（Qiita）](https://qiita.com/k-keita/items/e27e4eefc8c009ecdeab) 
+- [表情認識の実装（Qiita）](https://qiita.com/k-keita/items/e27e4eefc8c009ecdeab)
+
+  https://github.com/user-attachments/assets/4a52bdd1-ffbe-4ad5-bb41-7fb1f4b1195f

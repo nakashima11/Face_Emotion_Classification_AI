@@ -10,7 +10,7 @@
 - パラメータ総数: 58,423
 
 ## 必要条件
-- Python 3.10.12
+- Python 3.6
 - Keras (TensorFlowバックエンド)
 - numpy
 - matplotlib
@@ -81,9 +81,9 @@ predicted_emotion = emotion_labels[np.argmax(prediction)]
 ```
 
 ## 参考文献
-このモデルはXceptionアーキテクチャを基にした軽量版モデルを使用しています。 
-データセット:https://www.kaggle.com/datasets/msambare/fer2013 
+このモデルはXceptionアーキテクチャを基にした軽量版モデルを使用しています。
 
-https://github.com/user-attachments/assets/4a52bdd1-ffbe-4ad5-bb41-7fb1f4b1195f
-https://qiita.com/k-keita/items/e27e4eefc8c009ecdeab
-表情認識AI
+- [オリジナルモデル（GitHub）](https://github.com/oarriaga/face_classification/blob/master/trained_models/emotion_models/fer2013_mini_XCEPTION.102-0.66.hdf5)
+- [FER2013データセット（Kaggle）](https://www.kaggle.com/datasets/msambare/fer2013)
+- [画像例](https://github.com/user-attachments/assets/4a52bdd1-ffbe-4ad5-bb41-7fb1f4b1195f)
+- [表情認識の実装（Qiita）](https://qiita.com/k-keita/items/e27e4eefc8c009ecdeab) 

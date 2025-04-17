@@ -79,7 +79,7 @@ prediction = model.predict(image)
 emotion_labels = ['怒り', '嫌悪', '恐怖', '喜び', '悲しみ', '驚き', '無表情']
 predicted_emotion = emotion_labels[np.argmax(prediction)]
 ```
-webcamera.ipynbを実行することで顔の表情認識の画面が立ち上がります。
+webcamera.ipynbを実行することで表情認識の画面が立ち上がります。
 
 ## 参考文献
 このモデルはXceptionアーキテクチャを基にした軽量版モデルを使用しています。
